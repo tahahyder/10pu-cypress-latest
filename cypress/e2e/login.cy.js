@@ -11,10 +11,7 @@ describe('Test Login Functionality', () => {
     //positive
     
     it('user should be able to log in', () => {
-    
-      cy.viewport(1366,768)
-      cy.viewport('macbook-11') 
-    
+
         cy.wait(3000)
         cy.login('admin','admin123')
     
