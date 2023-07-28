@@ -4,8 +4,9 @@ describe('Test Login Functionality', () => {
 
     beforeEach(()=>{
   
-      cy.visit('https://opensource-demo.orangehrmlive.com/')
-    
+      // cy.visit('https://opensource-demo.orangehrmlive.com/')
+      cy.visit('/')
+
     })
     
     //positive
